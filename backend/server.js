@@ -2,6 +2,7 @@ const express = require('express')
 const dotenv = require('dotenv').config()
 const port = process.env.port || 5000
 
+//sample commit
 const app = express()
 
 app.use('/api/goals', require('./routes/goalRoutes'))
